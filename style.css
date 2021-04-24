@@ -1,0 +1,119 @@
+html,body {
+ margin: 0;
+ padding: 0;
+
+}
+
+#mainContainer {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+justify-content: center;
+ background-color: darkgrey;
+ height: 100vh;
+ width: 100%;
+ padding: 0;
+
+}
+#inputContainer {
+ height: 40vh;
+ width: 50%;
+ display: flex;
+ align-items: center;
+ border-radius: 10px;
+ justify-content: center;
+ flex-direction: column;
+ background-color:royalblue;
+ font-size: 20px;
+padding: 0;
+
+}
+ #listContainer {
+ height: 40vh;
+ width: 50%;
+ display: flex;
+ align-items: center;
+ border-radius: 10px;
+
+ flex-direction: column;
+ background-color:lightgrey;
+ font-size: 20px;
+padding: 0;
+margin-top: 20px;
+overflow: scroll;
+ }
+ #listContainer::-webkit-scrollbar { width: 0 !important } 
+ #intro {
+  font-size: 35px;
+  padding: 0;
+ margin: 0;
+ }
+#messageForCaution{
+ padding: 0;
+ margin-bottom: 20px;
+ width: 50%;
+ text-align: center;
+}
+ #inputForAddGrocery{
+  width: 70%;
+  height: 5vh;
+  margin-bottom: 40px;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: none;
+  border-bottom: 7px solid darkgray;
+  font-size: 20px;
+ }
+ #submitButtonId {
+  width: 50%;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  outline-style: none;
+  font-size: 20px;
+  background:none;
+color: white;
+
+ }
+ #submitButtonId:hover {
+  background-color: blue;
+ }
+ #clearItems {
+    width:25%;
+  height: 5vh;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  outline-style: none;
+  font-size: 20px;
+  background:none;
+color: white;
+
+ }
+ #clearItems:hover {
+  background-color: rgba(241, 13, 13, 0.808);
+ }
+ ul {
+  list-style-type:none;
+  width: 95vh;
+text-align: left;
+ }
+ li {
+  background-color: darkgrey;
+margin-top: 10px;
+
+ height: 3.25vh;
+ width: 92.5%;
+padding: 5px;
+ }
+ li:hover{
+
+
+ }
+ #removeSingleItem {
+   float: right;
+   background-color: red;
+ }

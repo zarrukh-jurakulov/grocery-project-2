@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\Grocery Project"
+		},
+		{
+			"path": "..\\My Store Project"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Grocery List 2"
+	}
+}

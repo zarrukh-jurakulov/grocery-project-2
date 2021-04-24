@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Grocery List</title>
+ <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+ <div id="mainContainer">
+  <div id="inputContainer">
+   <p id="messageForCaution"></p>
+   <p id="intro">Add Grocery Items</p>
+
+   <input type="text" name="text" id="inputForAddGrocery" value="">
+   <button onclick="submitButton()" id="submitButtonId">Submit Here</button>
+  </div>
+
+  <div id="listContainer">
+   <div>
+    <p id="intro">Grocery Items :</p>
+   </div>
+
+   <div id="listItems"></div>
+
+  </div>
+  <button id="clearItems" onclick="clearItems()">Clear Items</button>
+ </div>
+
+ <script src="./script.js"></script>
+</body>
+
+</html>
